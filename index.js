@@ -27,7 +27,7 @@ controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
 })
 
 controller.hears(['funny', 'ha'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'That's hillarious.')
+  bot.reply(message, 'That\'s hillarious.')
 })
 
 controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
